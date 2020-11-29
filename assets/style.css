@@ -13,22 +13,58 @@ html {
     letter-spacing: 1px;
   }
   html {
-    background-color: #00539F;
+    background-color: #007f9f;
   }
   body {
-    width: 600px;
+    
     margin: 0 auto;
-    background-color: #FF9500;
+    
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }
   h1 {
+    font-size: 100px;
+    text-align: center;
     margin: 0;
     padding: 20px 0;    
     color: #00539F;
     text-shadow: 3px 3px 1px black;
   }
   img {
+    float:right;
     display: block;
     margin: 0 auto;
+    
   }
+  h4 {
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;}
+
+#pdcontainer {
+     font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+     }
+        
+#sidebar { 
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    width:275px; 
+    border:5px solid #66CCFF; 
+        }
+        
+#content{
+    margin:0;
+    padding:0;
+    width:500px;
+    height:2455px;
+    border:5px solid #66CCFF;
+    position: relative;
+    float:left;
+        }
+    }
