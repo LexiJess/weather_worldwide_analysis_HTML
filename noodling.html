@@ -50,39 +50,61 @@
       </nav>
 
   <body>
-    <h1>Summary: Latitude Versus the World</h1>
-<h2>This project is devoted to making sure that we all know what's going on with the weather.</h2>
-<p>Specifically, we wanted to see how varying weather markers would be affected
-    by distance from the equator. We used an API call to 
-    <a href="https://openweathermap.org/">OpenWeatherMap</a> to gather data 
-on over 500 cities worldwide.</p>
-<p> MatPlotLib was used to render several variables versus latitude. Such variables included</p>
-<ul> 
-    <li>Maximum temperature</li>
-    <li>Humidity</li>
-    <li>Cloudiness</li>
-    <li>Wind speed</li>
-  </ul>
+    <div class="container">
 
-  <p>You can follow the links on the sidebar of this page, as well as links
-      from the navigation bar or dropdown menu above, to find the visualizations 
-      analysis, as well as descriptions of trends observed.
-    </p>
-    
+     <div class="row">
+        <div class="col-md-8">  
+          <h1>Summary: Latitude Versus the World</h1>
+          <h2>This project is devoted to making sure that we all know what's going on with the weather.</h2>
+          <p>Specifically, we wanted to see how varying weather markers would be affected
+              by distance from the equator. We used an API call to 
+              <a href="https://openweathermap.org/">OpenWeatherMap</a> to gather data 
+          on over 500 cities worldwide.</p>
+          <p> MatPlotLib was used to render several variables versus latitude. Such variables included</p>
+        
+          <ul> 
+              <li>Maximum temperature</li>
+              <li>Humidity</li>
+              <li>Cloudiness</li>
+              <li>Wind speed</li>
+            </ul>
 
-<div id="sidebar">
-        <a href="visualization1.html">
-            <img style="float: right;" src="Resources\max_temp_latitude.png" class="img-thumbnail" >
-            <a href="visualization3.html">
-            <img style="float: right;" src="Resources\latitude_humidity.png" class="img-thumbnail" >
-            <a href="visualization2.html">
-            <img style="float: right;" src="Resources\latitude_cloudiness.png" class="img-thumbnail" >
-        <a href="visualization4.html">
-            <img style="float: right;" src="Resources\latitude_wind_speed.png" class="img-thumbnail" >
-      
-        </div> 
-     
+            <p>You can follow the links on the sidebar of this page, as well as links
+                from the navigation bar or dropdown menu above, to find the visualizations 
+                analysis, as well as descriptions of trends observed.
+              </p>
+        </div>
 
+        <div class="col-md-4" id="sidebar">
+            <div class="row">
+              <div class="col-md-6">
+
+                <a href="visualization1.html">
+                <img style="float: right; width=50%; height=50%" src="Resources\max_temp_latitude.png" class="img-thumbnail" > </a>
+              </div>  
+              <div class="col-md-6">  
+                <a href="visualization3.html">
+                <img style="float: right;" src="Resources\latitude_humidity.png" class="img-thumbnail" ></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">  
+              <a href="visualization2.html"> 
+                <img style="float: right;" src="Resources\latitude_cloudiness.png" class="img-thumbnail" ></a>
+              </div>  
+              <div class="col-md-6">    
+          <a href="visualization4.html">
+              <img style="float: right;" src="Resources\latitude_wind_speed.png" class="img-thumbnail" ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+
+     </div> 
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
