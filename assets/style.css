@@ -18,17 +18,21 @@ html {
   body {
     
     margin: 0 auto;
-    
+    width: 70%;
+    height: 100%;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+    float: left;
   }
+
+
   h1 {
     font-size: 100px;
     text-align: center;
     margin: 0;
     padding: 20px 0;    
     color: #00539F;
-    text-shadow: 3px 3px 1px black;
+   
   }
   img {
     float:right;
@@ -50,13 +54,22 @@ html {
      }
         
 #sidebar { 
-    height: 80%;
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0; 
-    width:275px; 
+    width: 20%; 
     border:5px solid #66CCFF; 
         }
+#sidebar img {
+    height: 25%;
+    width: 100%;
+    }
+
+#img-thumbnail {
+    height: 100%;
+    width: 100%;
+    }
         
 #content{
     margin:0;
@@ -67,4 +80,8 @@ html {
     position: relative;
     float:left;
         }
+    
+    .img-fluid. {
+    max-width: 100%;
+    height: auto;    
     }
